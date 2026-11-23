@@ -1,0 +1,10 @@
+// Optional Cloudflare Workers hosting. GitHub Pages does not use this file.
+// Build with SITE_BASE=/ before deploying to a domain's root.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "boetecheck",
+  "compatibility_date": "2026-11-23",
+  "assets": {
+    "directory": "./dist"
+  }
+}
